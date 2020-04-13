@@ -1,2 +1,2 @@
 # RegistroMercantilModelos
- Rellenado de informes del Registro Mercantil español
+ Cumplimentación de informes del Registro Mercantil español
