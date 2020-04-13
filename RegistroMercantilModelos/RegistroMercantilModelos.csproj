@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF512FBE-EC9B-4351-8202-429952C24FFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RegistroMercantilModelos</RootNamespace>
+    <AssemblyName>RegistroMercantilModelos</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NamespaceDoc.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Src\Configuración\RegistroMercantilModelosContexto.cs" />
+    <Compile Include="Src\ConjuntoDeEmpaquetables.cs" />
+    <Compile Include="Src\Conversores\Cm.cs" />
+    <Compile Include="Src\Conversores\ConversorPorDefecto.cs" />
+    <Compile Include="Src\Conversores\IConversor.cs" />
+    <Compile Include="Src\Conversores\N.cs" />
+    <Compile Include="Src\Conversores\S.cs" />
+    <Compile Include="Src\Errores.cs" />
+    <Compile Include="Src\ICasilla.cs" />
+    <Compile Include="Src\IEmpaquetable.cs" />
+    <Compile Include="Src\IModelo.cs" />
+    <Compile Include="Src\ModCcaaBceAbreviado2020\ModCcaaBceAbreviado2020.cs" />
+    <Compile Include="Src\ModCcaaBceAbreviado2020\Txt.cs" />
+    <Compile Include="Src\ModCcaaPygAbreviado2020\ModCcaaPygAbreviado2020.cs" />
+    <Compile Include="Src\ModCcaaPygAbreviado2020\Txt.cs" />
+    <Compile Include="Src\RegistroCampo.cs" />
+    <Compile Include="Src\RegistroCampoTipo.cs" />
+    <Compile Include="Src\RegistroMod.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doc\Specs\DepósitoCuentasAnuales_ModelosNormalizados_Abreviado.pdf" />
+    <EmbeddedResource Include="Resources\ModCcaaBceAbreviado2020.pdf" />
+    <EmbeddedResource Include="Resources\calibri.ttf" />
+    <EmbeddedResource Include="Resources\ModCcaaPygAbreviado2020.pdf" />
+    <None Include="Src\ModCcaaBceAbreviado2020\Doc\CorrespondenciaCampoCuenta_ModCcaaBceAbreviado2020.pdf" />
+    <None Include="Src\ModCcaaBceAbreviado2020\Doc\ModCcaaBceAbreviado2020.pdf" />
+    <None Include="Src\ModCcaaPygAbreviado2020\Doc\CorrespondenciaCampoCuenta_ModCcaaPygAbreviado2020.pdf" />
+    <None Include="Src\ModCcaaPygAbreviado2020\Doc\ModCcaaPygAbreviado2020.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Doc\Help\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dependencies\itextsharp.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

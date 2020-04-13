@@ -1,0 +1,10 @@
+C:\Users\Juan Bautista\Proyectos\RegistroMercantilModelos\RegistroMercantilModelos\obj\Debug\RegistroMercantilModelos.csprojAssemblyReference.cache
+C:\Users\Juan Bautista\Proyectos\RegistroMercantilModelos\RegistroMercantilModelos\obj\Debug\RegistroMercantilModelos.Properties.Resources.resources
+C:\Users\Juan Bautista\Proyectos\RegistroMercantilModelos\RegistroMercantilModelos\obj\Debug\RegistroMercantilModelos.csproj.GenerateResource.cache
+C:\Users\Juan Bautista\Proyectos\RegistroMercantilModelos\RegistroMercantilModelos\obj\Debug\RegistroMercantilModelos.csproj.CoreCompileInputs.cache
+C:\Users\Juan Bautista\Proyectos\RegistroMercantilModelos\RegistroMercantilModelos\bin\Debug\RegistroMercantilModelos.dll
+C:\Users\Juan Bautista\Proyectos\RegistroMercantilModelos\RegistroMercantilModelos\bin\Debug\RegistroMercantilModelos.pdb
+C:\Users\Juan Bautista\Proyectos\RegistroMercantilModelos\RegistroMercantilModelos\obj\Debug\RegistroMercantilModelos.dll
+C:\Users\Juan Bautista\Proyectos\RegistroMercantilModelos\RegistroMercantilModelos\obj\Debug\RegistroMercantilModelos.pdb
+C:\Users\Juan Bautista\Proyectos\RegistroMercantilModelos\RegistroMercantilModelos\bin\Debug\itextsharp.dll
+C:\Users\Juan Bautista\Proyectos\RegistroMercantilModelos\RegistroMercantilModelos\obj\Debug\RegistroMercantilModelos.csproj.CopyComplete
