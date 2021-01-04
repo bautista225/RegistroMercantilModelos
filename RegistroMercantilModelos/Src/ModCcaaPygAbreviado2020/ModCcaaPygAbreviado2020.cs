@@ -225,7 +225,7 @@ namespace RegistroMercantilModelos.ModCcaaPygAbreviado2020
                 ingresosFinancieros, "41500", "41600", "41700", "41800", otrosIngresosYGastosDeCaracterFinanciero
             };
 
-            string resultadoFinanciero = "42100";
+            string resultadoFinanciero = "49200";
 
             CalculaCasilla(clavesResultadoFinanciero, resultadoFinanciero);
 
