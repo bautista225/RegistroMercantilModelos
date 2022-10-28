@@ -303,6 +303,7 @@ namespace RegistroMercantilModelos
         /// <returns>Documento PDF rellenado.</returns>
         public virtual byte[] RellenarFormulario()
         {
+
             PdfReader pdfReader = new PdfReader(PdfFormulario);
             MemoryStream formularioSalida = new MemoryStream();
 
